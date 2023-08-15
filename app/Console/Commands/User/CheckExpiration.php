@@ -4,10 +4,9 @@ namespace App\Console\Commands\User;
 
 use App\Jobs\DeactivateUsers;
 use App\Mail\UserExcepted;
-use App\Models\{Group, User};
+use App\Models\User;
 
 use Illuminate\Console\Command;
-use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
 
 use Carbon\Carbon;
